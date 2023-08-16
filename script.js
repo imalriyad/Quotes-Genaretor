@@ -27,10 +27,7 @@ const quotesArray = [
       quote: "Life is what happens when you're busy making other plans.",
       name: "John Lennon"
     },
-    {
-      quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
-      name: "Ralph Waldo Emerson"
-    },
+   
     {
       quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
       name: "Winston Churchill"
