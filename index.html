@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Genaretor</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: 'Bricolage Grotesque', sans-serif;">
+  <main class="max-w-screen-xl mx-auto md:mt-16 mt-4  px-4">
+    <header class="text-center">
+        <h1 class="md:text-6xl text-3xl font-semibold">Quotes Genaretor</h1>
+        <p class="md:text-xl text-lg md:px-0 px-3 mt-4">Genaretor Quotes that will inspire you</p>
+    </header>
+     
+    <div id="card" class="pt-14 bg-[#00CED1] card md:w-8/12 md:h-[320px] h-[320px] mx-auto bg-base-100 shadow-xl mt-8">
+        <div class="card-body  md:space-y-2">
+          <h2 id="quotes-text" class="md:text-xl lg:px-8 text-base font-normal text-white">Quotes will appear here....</h2>
+          <p class="font-semibold md:text-lg text-white text-base font-mono lg:px-8">- <span id="said-by">Said by...</span></p>
+          <div class="card-actions pb-1 ">
+            <button id="btn" class="btn bg-[light-gray] mt-4 lg:mx-8">generate</button>
+          </div>
+        </div>
+      </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
